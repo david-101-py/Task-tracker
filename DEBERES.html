@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEBERES</title>
+    <link rel="icon" href="logo/TASK_TRACKER_logo.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="logo/TASK_TRACKER_logo.jpg" />
+    <link rel="stylesheet" href="css/styles_deberes.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <img class="logo" src="logo/TASK_TRACKER_logo.jpg" alt="DEBERES" />
+      <h1>DEBERES</h1>
+      <div class="spacer"></div>
+      <div class="toolbar">
+        <span id="save-status" class="save-status"></span>
+        <button id="btn-export" class="btn btn-sm" type="button">Exportar JSON</button>
+        <button id="btn-import" class="btn btn-sm" type="button">Importar JSON</button>
+        <input id="file-import" type="file" accept=".json,application/json" hidden />
+        <div id="reset-group" class="reset-group" data-mode="idle">
+          <span class="reset-label">Restablecer</span>
+          <button id="btn-clear-tasks" class="reset-dot reset-dot-red" type="button" title="Eliminar todo" aria-label="Eliminar todo"></button>
+          <button id="btn-clear-selections" class="reset-dot reset-dot-blue" type="button" title="Borrar selecciones" aria-label="Borrar selecciones"></button>
+        </div>
+        <button id="btn-theme" class="btn btn-sm" type="button">Modo claro</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="asignaturas" class="grid"></section>
+
+      <section class="expectativas">
+        <div class="section-head">
+          <h2>EXPECTATIVAS</h2>
+          <div class="spacer"></div>
+          <button id="btn-nuevo-periodo" class="btn btn-primary btn-sm" type="button">+ Nuevo periodo</button>
+        </div>
+        <div id="periodos"></div>
+      </section>
+    </main>
+
+    <script src="js/deberes.js"></script>
+  </body>
+</html>

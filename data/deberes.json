@@ -1,0 +1,242 @@
+{
+  "asignaturas": [
+    {
+      "nombre": "MATEMÁTICAS",
+      "bloques": {
+        "urgente": [
+          {
+            "id": "t_mat_1",
+            "texto": "Escribir correo para lo que hay que hacer esta semana.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "estaSemana": [
+          {
+            "id": "t_mat_2",
+            "texto": "Copiar lo de la semana pasada.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_mat_3",
+            "texto": "Copiar lo de esta semana.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_mat_4",
+            "texto": "Escribir al profe para buscar una solución para lo de la última semana.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_mat_5",
+            "texto": "Hablar con Lily para que me vaya diciendo lo que van haciendo cada día.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "LENGUA",
+      "bloques": {
+        "urgente": [
+          {
+            "id": "t_len_1",
+            "texto": "Leer Don Juan Tenorio.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "estaSemana": [
+          {
+            "id": "t_len_2",
+            "texto": "Hacer lo de la semana pasada.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_len_3",
+            "texto": "Hacer lo de esta semana.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_len_4",
+            "texto": "Escribir a Milagros sobre las dificultades.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_len_5",
+            "texto": "Mirar ideas para el cuaderno creativo.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_len_6",
+            "texto": "Estudiar.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_len_7",
+            "texto": "Seguir con las tareas diarias.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_len_8",
+            "texto": "Estudiar.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "INGLÉS",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [],
+        "semanaQueViene": []
+      }
+    },
+    {
+      "nombre": "ALEMÁN",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [],
+        "semanaQueViene": []
+      }
+    },
+    {
+      "nombre": "FÍSICA Y QUÍMICA",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [
+          {
+            "id": "t_fis_1",
+            "texto": "Avanzar con ejercicios y temario.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_fis_2",
+            "texto": "Avanzar con ejercicios y temario.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "BIOLOGÍA Y GEOLOGÍA",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [
+          {
+            "id": "t_bio_1",
+            "texto": "Hacer trabajos:",
+            "hecha": false,
+            "subtareas": [
+              { "id": "t_bio_1_1", "texto": "1", "hecha": false, "subtareas": [] },
+              { "id": "t_bio_1_2", "texto": "2", "hecha": false, "subtareas": [] },
+              { "id": "t_bio_1_3", "texto": "3", "hecha": false, "subtareas": [] },
+              { "id": "t_bio_1_4", "texto": "4", "hecha": false, "subtareas": [] }
+            ]
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_bio_2",
+            "texto": "Hacer lo que me mande hacer para la semana.",
+            "hecha": false,
+            "subtareas": []
+          },
+          {
+            "id": "t_bio_3",
+            "texto": "Estudiar.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "GEOGRAFÍA E HISTORIA",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [
+          {
+            "id": "t_geo_1",
+            "texto": "Estudiar.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_geo_2",
+            "texto": "Estudiar.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "UNIÓN EUROPEA",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [
+          {
+            "id": "t_ue_1",
+            "texto": "Avanzar con el trabajo de Alemania en la UE.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_ue_2",
+            "texto": "Avanzar con el trabajo de Alemania en la UE.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "EDUCACIÓN FÍSICA",
+      "bloques": {
+        "urgente": [],
+        "estaSemana": [
+          {
+            "id": "t_ef_1",
+            "texto": "Practicar al menos 2 veces lo de Mobility Flow.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ],
+        "semanaQueViene": [
+          {
+            "id": "t_ef_2",
+            "texto": "Practicar al menos 2 veces lo de Mobility Flow.",
+            "hecha": false,
+            "subtareas": []
+          }
+        ]
+      }
+    }
+  ],
+  "expectativas": []
+}
